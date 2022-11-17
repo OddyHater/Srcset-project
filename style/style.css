@@ -1,7 +1,7 @@
 .page {
   font-family: 'Inter', sans-serif;
 }
-/*HEADER*/
+/*GREETINGS*/
 .greetings {
   max-width: 1280px;
   margin: 0 auto;
@@ -10,5 +10,39 @@
 .greetings__title {
 }
 .greetings__subtitle {
+  margin-bottom: 80px;
 }
-/*HEADER*/
+/*GREETINGS*/
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: start;
+  gap: 20px;
+  max-width: 1280px;
+  padding: 0 40px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+.image {
+  display: block;
+}
+.image_size_xl {
+  max-width: 1280px;
+}
+.image_size_m {
+  max-width: 768px;
+}
+.image_size_s {
+  max-width: 425px;
+}
+.info {
+}
+.info__data-volume {
+}
+.options {
+}
+.info__download-speed {
+}
+.info__optimization-button {
+}

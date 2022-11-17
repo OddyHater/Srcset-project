@@ -17,10 +17,19 @@
       Some description
     </p>
   </section>
-  <section class="images">
-    <img src="" alt="" class="image image_size_xl">
-    <img src="" alt="" class="image image_size_m">
-    <img src="" alt="" class="image image_size_s">
+  <!-- <section class="images">
+    <img src="./img/pexels-pixabay-416179.jpg" alt="Huge img of bird" class="image image_size_xl">
+    <img src="./img/pexels-pixabay-416179.jpg" alt="Medium img of bird" class="image image_size_m">
+    <img src="./img/pexels-pixabay-416179.jpg" alt="Small img of bird" class="image image_size_s">
+  </section>
+  <section class="images"> -->
+    <picture>
+      <source media="(max-width: 1280px)" srcset="">
+      <source media="(max-width: 768px)" srcset="bidrie_768.jpg">
+      <img src="./img/pexels-pixabay-416179.jpg" alt="bidrie" class="image image_size_xl">
+    </picture>
+    <img src="./img/pexels-pixabay-416179.jpg" alt="Medium img of bird" class="image image_size_m">
+    <img src="./img/pexels-pixabay-416179.jpg" alt="Small img of bird" class="image image_size_s">
   </section>
   <section class="info">
     <div class="info__data-volume options">
