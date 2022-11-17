@@ -28,7 +28,7 @@
   display: block;
 }
 .image_size_xl {
-  max-width: 1280px;
+  max-width: 100%;
 }
 .image_size_m {
   max-width: 768px;
