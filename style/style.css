@@ -1,0 +1,14 @@
+.page {
+  font-family: 'Inter', sans-serif;
+}
+/*HEADER*/
+.greetings {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+.greetings__title {
+}
+.greetings__subtitle {
+}
+/*HEADER*/
