@@ -6,27 +6,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style/normalize.css">
   <link rel="stylesheet" href="./style/style.css">
   <title>Srcset demonstration</title>
 </head>
 <body class="page">
   <section class="greetings">
-    <h1 class="greetings__title">Srcset demonstration</h1>
-    <p class="greetings__subtitle">
-      Some description
-    </p>
+    <h1>Srcset demonstration</h1>
   </section>
   <section class="images">
-    <picture>
-      <source media="(max-width: 425px)" srcset="./img/birdie_425.jpg">
-      <source media="(max-width: 768px)" srcset="./img/birdie_768.jpg">
-      <img src="./img/birdie_1280.jpg" alt="bidrie adaptive" class="image image_size_xl">
+    <picture> <!-- Adaptive image -->
+      <source media="(max-width: 425px)" srcset="./img/birdie_425.jpg"> <!-- Image to be loaded at 425px or less screen size -->
+      <source media="(max-width: 768px)" srcset="./img/birdie_768.jpg"> <!-- Image to be loaded at 768px or less screen size -->
+      <img src="./img/birdie_1280.jpg" alt="bidrie adaptive" class="image image_size_xl"> <!-- Default img 1280px -->
     </picture>
-    <img src="./img/birdie_1280.jpg" alt="1280" class="image">
-  </section>
-  <section class="info">
-    
+    <img src="./img/birdie_1280.jpg" alt="1280" class="image"> <!-- Non-adaptive image -->
   </section>
 </body>
 </html>
