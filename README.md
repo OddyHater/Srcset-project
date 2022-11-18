@@ -1,15 +1,15 @@
-#Srcset demonstration
+# Srcset demonstration
 ---
-##Demonstration of using srcset for adaptive images.
+## Demonstration of using srcset for adaptive images.
 Srcset is necessary in case we have adaptive web-page to reduce internet traffic for better UX.
 ***
-##How it works.
+## How it works.
 Img tag contains media query, so we can easily change image's size witch depending on window width, so smallest image takes low traffic.
 ***
-##How can i check it?
+## How can i check it?
 Check it out on [GitHub Pages](https://oddyhater.github.io/srcset-project/) of this repo, open a devtools and go to network tab. Set window's width at 769px+, reload the page, next set width at 768px - 426px range, look at the sources downloaded, repeat for <425px range.
 ***
-##My results:
+## My results:
 * >769px+
   * adaptive and non-adaptive images have the same options(76,7kB and 322ms download time)
 
