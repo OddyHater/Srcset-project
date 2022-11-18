@@ -19,6 +19,7 @@ Check it out on [GitHub Pages](https://oddyhater.github.io/srcset-project/) of t
   * non-adaptive: 76.7kB and 237ms download time)
   (~55% data less)
 <br/>
+
 * ><425px
   * adaptive: 15.7kB and 113ms download time)
   * non-adaptive: 76.7kB and 595ms download time)
