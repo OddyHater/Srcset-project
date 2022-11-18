@@ -7,12 +7,9 @@
   margin: 0 auto;
   text-align: center;
 }
-.greetings__title {
-}
-.greetings__subtitle {
-  margin-bottom: 80px;
-}
 /*GREETINGS*/
+
+/*IMAGES*/
 .images {
   display: flex;
   flex-wrap: wrap;
@@ -28,25 +25,4 @@
   display: block;
   max-width: 100%;
 }
-.image_size_xl {
-  max-width: 100%;
-}
-.image_size_m {
-  max-width: 768px;
-}
-.image_size_s {
-  max-width: 425px;
-}
-.info {
-}
-.info__data-volume {
-}
-.options {
-}
-.info__download-speed {
-}
-.info__optimization-button {
-}
-
-
-/*something for testing git*/
+/*IMAGES*/
