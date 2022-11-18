@@ -26,6 +26,7 @@
 }
 .image {
   display: block;
+  max-width: 100%;
 }
 .image_size_xl {
   max-width: 100%;
