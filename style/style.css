@@ -3,26 +3,20 @@
 }
 /*GREETINGS*/
 .greetings {
-  max-width: 1280px;
-  margin: 0 auto;
   text-align: center;
 }
 /*GREETINGS*/
 
 /*IMAGES*/
 .images {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: start;
-  justify-content: start;
-  gap: 20px;
   max-width: 1280px;
-  padding: 0 40px;
   margin: 0 auto;
-  margin-bottom: 150px;
+  padding: 0 40px;
+  margin-bottom: 100px;
 }
 .image {
   display: block;
   max-width: 100%;
+  margin-bottom: 50px;
 }
 /*IMAGES*/
