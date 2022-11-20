@@ -15,14 +15,14 @@ Check it out on [GitHub Pages](https://oddyhater.github.io/srcset-project/) of t
 <br/>
 
 * >768px - 426px
-  * adaptive: 34.0kB and 196ms download time)
-  * non-adaptive: 76.7kB and 237ms download time)
+  * adaptive: 34.0kB and 196ms download time
+  * non-adaptive: 76.7kB and 237ms download time
   (~55% data less)
 <br/>
 
 * ><425px
-  * adaptive: 15.7kB and 113ms download time)
-  * non-adaptive: 76.7kB and 595ms download time)
+  * adaptive: 15.7kB and 113ms download time
+  * non-adaptive: 76.7kB and 595ms download time
   (~80% data less)
 <br/>
 Don't forget to disable browser's cache before trying.
