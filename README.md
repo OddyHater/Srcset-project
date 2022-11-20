@@ -25,6 +25,6 @@ Check it out on [GitHub Pages](https://oddyhater.github.io/srcset-project/) of t
   * non-adaptive: 76.7kB and 595ms download time)
   (~80% data less)
 <br/>
-Don't forget to reset your browser's cache before each try.
+Don't forget to disable browser's cache before trying.
 
 Hope you enjoed.
